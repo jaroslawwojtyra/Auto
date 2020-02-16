@@ -30,7 +30,7 @@ function burnFuel(){
 }
 function canisterTank(){
   if(myCar.fuel<36){
-    myCar.fuel += 15
+    myCar.fuel += 5
   }
   else{
     myCar.fuel = 50
