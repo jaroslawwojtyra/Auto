@@ -40,6 +40,7 @@ function carModel(brand, model, milage, bak) {
   this.remove = function() {
     this.el.parentNode.removeChild(this.el);
   }
+  this.el.addEventListener('click', () => this.hide());
 }
 
 let maluch = new carModel('fiat', 'tipo', 1000, 10);
